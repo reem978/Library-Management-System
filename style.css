@@ -1,0 +1,51 @@
+body{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url(/Dreamy\ Indoor\ Library\ with\ Blooming\ Pink\ Blossom\ Tree\ and\ Tall\ Bookshelves.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    font-size: larger;
+}
+#book{
+size: 20px;
+}
+#controls{
+    padding: 20px;
+    flex: auto;
+    align-items: center;
+    font-family: monospace;
+    border-radius: 15px;
+}
+#search{
+    background-color: hsl(300, 67%, 81%);
+}
+#search:hover{
+    background-color: hsl(300, 29%, 64%);
+}
+#show{
+    background-color: hsl(240, 60%, 81%);
+}
+#show:hover{
+    background-color: hsl(240, 60%, 71%);
+}
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#borrow{
+    background-color: hsl(340, 57%, 64%);
+}
+#borrow:hover{
+    background-color: hsl(340, 35%, 41%);
+}
